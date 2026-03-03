@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marriage Biodata - Lakshminarayanan R.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #4a5d4e; /* Deep Sage Green to match your shirt */
+            --accent-color: #d4af37;  /* Subtle Gold */
+            --bg-color: #f9fbf9;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            border-top: 8px solid var(--primary-color);
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(to bottom, #f0f4f0, white);
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            color: var(--primary-color);
+            font-size: 2.2rem;
+        }
+
+        .tagline {
+            color: var(--accent-color);
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding: 40px;
+        }
+
+        @media (max-width: 600px) {
+            .content-grid { grid-template-columns: 1fr; padding: 20px; }
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 8px;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+        }
+
+        .info-item {
+            margin: 12px 0;
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.95rem;
+        }
+
+        .label {
+            font-weight: 600;
+            color: #666;
+        }
+
+        .value {
+            text-align: right;
+            color: #222;
+            padding-left: 10px;
+        }
+
+        .full-width {
+            grid-column: 1 / -1;
+        }
+
+        .footer {
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1rem;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="s.jpeg" alt="Lakshminarayanan R." class="profile-img">
+        <div class="tagline">Bio-Data</div>
+        <h1>Lakshminarayanan R.</h1>
+    </header>
+
+    <div class="content-grid">
+        <section>
+            <h2>Personal Details</h2>
+            <div class="info-item"><span class="label">DOB:</span> <span class="value">Feb 9, 1994</span></div>
+            <div class="info-item"><span class="label">Height:</span> <span class="value">5' 9"</span></div>
+            <div class="info-item"><span class="label">Mother Tongue:</span> <span class="value">Tamil</span></div>
+            <div class="info-item"><span class="label">Eating:</span> <span class="value">Non-Vegetarian</span></div>
+            <div class="info-item"><span class="label">Lifestyle:</span> <span class="value">Non-smoker / Drinker</span></div>
+        </section>
+
+        <section>
+            <h2>Horoscope Details</h2>
+            <div class="info-item"><span class="label">Rashi:</span> <span class="value">Makara (Capricorn)</span></div>
+            <div class="info-item"><span class="label">Nakshatra:</span> <span class="value">Thiruvonam</span></div>
+            <div class="info-item"><span class="label">Native:</span> <span class="value">Sankarankovil, Tenkasi</span></div>
+        </section>
+
+        <section class="full-width">
+            <h2>Education & Career</h2>
+            <div class="info-item"><span class="label">Qualification:</span> <span class="value">M.E., College of Engineering Guindy</span></div>
+            <div class="info-item"><span class="label">Profession:</span> <span class="value">Software Engineer at L&T (Russel Tobin)</span></div>
+            <div class="info-item"><span class="label">Annual Income:</span> <span class="value">₹8 – 9 LPA</span></div>
+            <div class="info-item"><span class="label">Location:</span> <span class="value">Chennai, Tamil Nadu</span></div>
+        </section>
+
+        <section class="full-width">
+            <h2>Family Background</h2>
+            <div class="info-item"><span class="label">Father:</span> <span class="value">Mr. Ramamoorthy (Farmer)</span></div>
+            <div class="info-item"><span class="label">Mother:</span> <span class="value">Mrs. Jaya (Homemaker)</span></div>
+            <div class="info-item"><span class="label">Elder Brother:</span> <span class="value">Mr. Luxminarasimman, M.E (Ford)</span></div>
+            <div class="info-item"><span class="label">Interests:</span> <span class="value">Cricket, Fitness, Movies & Music</span></div>
+        </section>
+    </div>
+
+    <div class="footer">
+        Contact: <a href="tel:+918344421157">+91 83444 21157</a>
+    </div>
+</div>
+
+</body>
+</html>
